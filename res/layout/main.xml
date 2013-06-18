@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:orientation="vertical" android:clickable="true">
+    <TextView android:layout_height="wrap_content" android:id="@+id/textView1" android:layout_width="fill_parent" android:text="@string/app_name"></TextView>
+    <Button android:layout_width="match_parent" android:onClick="create Start" android:layout_height="wrap_content" android:text="@string/chooseMeal" android:id="@+id/chooseButton" android:layout_x="-2dip" android:layout_y="40dip"></Button>
+    <Button android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/add_meal_string" android:id="@+id/add_removeButton" android:layout_x="1dip" android:layout_y="133dip"></Button>
+    <Button android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/quit" android:id="@+id/quitButton" android:layout_x="2dip" android:layout_y="330dip"></Button>
+    <Button android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_x="0dip" android:layout_y="226dip" android:id="@+id/removeButton" android:text="@string/remove_meal_string"></Button>
+</AbsoluteLayout>

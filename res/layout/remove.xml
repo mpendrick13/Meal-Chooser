@@ -1,0 +1,6 @@
+<AbsoluteLayout android:id="@+id/absoluteLayout1" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+        <Spinner android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_x="4dip" android:layout_y="108dip" android:id="@+id/removeSpinner"></Spinner>
+        <Button android:text="@string/remove_string" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_x="5dip" android:layout_y="224dip" android:id="@+id/removeItemButton"></Button>
+        <Button android:text="@string/mealChooseBack" android:id="@+id/backButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_x="226dip" android:layout_y="228dip"></Button>
+        <TextView android:text="TextView" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_x="12dip" android:layout_y="37dip" android:id="@+id/test"></TextView>
+    </AbsoluteLayout>

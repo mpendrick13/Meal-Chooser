@@ -1,0 +1,6 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="fill_parent" android:layout_width="fill_parent" android:id="@+id/chooseMealOKButton">
+        <TextView android:layout_height="wrap_content" android:id="@+id/textView1" android:layout_width="wrap_content" android:text="@string/mealChooseBanner" android:layout_x="76dip" android:layout_y="56dip"></TextView>
+        <Button android:text="@string/chooseMealOK" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_x="28dip" android:layout_y="232dip" android:id="@+id/button2"></Button>
+        <Button android:text="@string/mealChooseBack" android:layout_height="wrap_content" android:layout_width="100dip" android:id="@+id/button1" android:layout_x="178dip" android:layout_y="233dip"></Button>
+        <TextView android:text="TextView" android:id="@+id/chosen_meal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_x="0dip" android:layout_y="88dip"></TextView>
+    </AbsoluteLayout>

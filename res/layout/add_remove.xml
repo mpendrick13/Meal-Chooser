@@ -1,0 +1,7 @@
+<AbsoluteLayout android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/absoluteLayout1">
+        <EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_x="1dip" android:layout_y="52dip" android:hint = "Enter meal name" android:id="@+id/nameBox"></EditText>
+        <EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_x="-2dip" android:layout_y="148dip" android:id="@+id/prefBox" android:hint = "Enter preference (1-10)" android:inputType="number"></EditText>
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_x="38dip" android:layout_y="316dip" android:text="@string/addSubmit" android:id="@+id/submitAdd"></Button>
+        <Button android:layout_width="wrap_content" android:id="@+id/button1" android:text="@string/addRemoveBack" android:layout_height="wrap_content" android:layout_x="216dip" android:layout_y="316dip"></Button>
+        <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/mealAddSuccess" android:layout_x="37dip" android:layout_y="266dip" android:visibility="invisible" android:id="@+id/meal_add_success"></TextView>
+    </AbsoluteLayout>

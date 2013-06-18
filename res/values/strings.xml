@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Meal_Chooser!</string>
+    <string name="app_name">Meal Chooser</string>
+    <string name="startButton">Start Button</string>
+    <string name="chooseMeal">Choose Meal</string>
+    <string name="addRemove">Add/Remove Meal</string>
+    <string name="quit">Quit</string>
+    <string name="mealChooseBanner">The chosen meal is:</string>
+    <string name="chooseMealOK">Sounds Good</string>
+    <string name="mealChooseBack">Back</string>
+    <string name="addRemoveBack">Back</string>
+    <string name="mealName">Enter meal name</string>
+    <string name="mealPref">Enter preference for meal</string>
+    <string name="addSubmit">Add Meal</string>
+    <string name="mealAddSuccess">Meal successfully added. Add another?</string>
+    <string name="add_meal_string">Add meal</string>
+    <string name="remove_meal_string">Remove meal</string>
+    <string name="remove_string">Remove Selected Item</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+</resources>
